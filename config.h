@@ -6,7 +6,7 @@
 /*   By: kylianmayanga <marvin@42.fr>               +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/21 08:14:42 by kylianmayanga     #+#    #+#             */
-/*   Updated: 2023/04/21 08:19:23 by kylianmayanga    ###   ########.fr       */
+/*   Updated: 2023/04/24 00:00:00 by kylian           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -59,6 +59,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     #define RGBLIGHT_SAT_STEP 17
     #define RGBLIGHT_VAL_STEP 17
 #endif
-
+#define IGNORE_MOD_TAP_INTERRUPT
 #define OLED_FONT_H "keyboards/crkbd/lib/glcdfont.c"
 
