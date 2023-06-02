@@ -6,7 +6,7 @@
 /*   By: kylianmayanga <marvin@42.fr>               +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/21 08:14:42 by kylianmayanga     #+#    #+#             */
-/*   Updated: 2023/04/24 00:00:00 by kylian           ###   ########.fr       */
+/*   Updated: 2023/06/02 22:24:13 by kylianmayanga    ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,7 +32,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #pragma once
 
-//#define USE_MATRIX_I2C
+// #define USE_MATRIX_I2C
 
 /* Select hand configuration */
 
@@ -40,25 +40,24 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // #define MASTER_RIGHT
 // #define EE_HANDS
 
-//#define QUICK_TAP_TERM 0
-//#define TAPPING_TERM 100
+/* #define QUICK_TAP_TERM 0 */
+#define TAPPING_TERM 150
 
 #ifdef RGBLIGHT_ENABLE
-    #define RGBLIGHT_EFFECT_BREATHING
-    #define RGBLIGHT_EFFECT_RAINBOW_MOOD
-    #define RGBLIGHT_EFFECT_RAINBOW_SWIRL
-    #define RGBLIGHT_EFFECT_SNAKE
-    #define RGBLIGHT_EFFECT_KNIGHT
-    #define RGBLIGHT_EFFECT_CHRISTMAS
-    #define RGBLIGHT_EFFECT_STATIC_GRADIENT
-    #define RGBLIGHT_EFFECT_RGB_TEST
-    #define RGBLIGHT_EFFECT_ALTERNATING
-    #define RGBLIGHT_EFFECT_TWINKLE
-    #define RGBLIGHT_LIMIT_VAL 120
-    #define RGBLIGHT_HUE_STEP 10
-    #define RGBLIGHT_SAT_STEP 17
-    #define RGBLIGHT_VAL_STEP 17
+#    define RGBLIGHT_EFFECT_BREATHING
+#    define RGBLIGHT_EFFECT_RAINBOW_MOOD
+#    define RGBLIGHT_EFFECT_RAINBOW_SWIRL
+#    define RGBLIGHT_EFFECT_SNAKE
+#    define RGBLIGHT_EFFECT_KNIGHT
+#    define RGBLIGHT_EFFECT_CHRISTMAS
+#    define RGBLIGHT_EFFECT_STATIC_GRADIENT
+#    define RGBLIGHT_EFFECT_RGB_TEST
+#    define RGBLIGHT_EFFECT_ALTERNATING
+#    define RGBLIGHT_EFFECT_TWINKLE
+#    define RGBLIGHT_LIMIT_VAL 120
+#    define RGBLIGHT_HUE_STEP 10
+#    define RGBLIGHT_SAT_STEP 17
+#    define RGBLIGHT_VAL_STEP 17
 #endif
 #define IGNORE_MOD_TAP_INTERRUPT
 #define OLED_FONT_H "keyboards/crkbd/lib/glcdfont.c"
-
