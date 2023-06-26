@@ -1,15 +1,3 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   config.h                                           :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: kylianmayanga <marvin@42.fr>               +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/04/21 08:14:42 by kylianmayanga     #+#    #+#             */
-/*   Updated: 2023/06/02 22:24:13 by kylianmayanga    ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
 /*
 This is the c configuration file for the keymap
 
@@ -41,7 +29,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // #define EE_HANDS
 
 /* #define QUICK_TAP_TERM 0 */
-#define TAPPING_TERM 150
+#define TAPPING_TERM 125
 
 #ifdef RGBLIGHT_ENABLE
 #    define RGBLIGHT_EFFECT_BREATHING
